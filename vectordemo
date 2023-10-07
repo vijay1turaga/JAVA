@@ -1,0 +1,16 @@
+//java program to demonstarte a vector
+import java.io.*;
+import java.util.*;
+public class VectorDemo{
+    public static void main(String args[]){
+        Vector<String> vec = new Vector <String>();
+        vec.add("vijay");
+        vec.add("ravi");
+        vec.add("trivikram");
+        vec.add("puri jagannath");
+        vec.add("sukumar");
+        vec.add("tharun bhascar");
+        vec.add("sekar kamula");
+        System.out.println("the elements of the vector are"+vec);
+    }
+}
